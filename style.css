@@ -1,0 +1,121 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:linear gradient(to right, #f0f0f0, #e0e0e0);
+}
+
+/* ===== Header ===== */
+header {
+    background: gray;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* ===== Profile Image (Option 1 applied) ===== */
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    object-fit: cover;          /* fills the circle neatly */
+    object-position: center top; /* moves image slightly downward */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #4CAF50;
+    color: white;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
